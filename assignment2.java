@@ -4,7 +4,6 @@ public class assignment2 {
     public static void rotate(int nums[], int key) {
         int n = nums.length;
         key = key % n;
-
         int temp[] = new int[n];
 
         // Left rotate the array
